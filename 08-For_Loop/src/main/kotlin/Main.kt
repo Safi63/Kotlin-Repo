@@ -21,7 +21,8 @@ fun main(args: Array<String>) {
 
     println("Printing table of 2")
     var num = 2
-    for (i in 1..10)
+    for (i in 1..10){
         println("$num x $i = ${num*i} ")
+
     }
 }
